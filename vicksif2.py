@@ -60,3 +60,5 @@ with col2:
     ax_cos.set_xticklabels(ax_cos.get_xticklabels(), rotation=30, ha='right')
     ax_cos.tick_params(axis='x', labelsize=15)
     st.pyplot(fig_cos)
+
+st.caption('Copyright © Vicky Sandika Putra Firdiawan_210322607233)
