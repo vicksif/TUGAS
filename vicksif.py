@@ -1,6 +1,6 @@
 import numpy as np
 import matplotlib.pyplot as plt
-import
+import streamlit as st
 
 # Header
 st.header('Vicky :sparkles:')
