@@ -2,19 +2,33 @@ import streamlit as st
 
 # Header
 st.header('Vicky San :Sparkles:')
-st.subheader('Plot')
 
-c1, c2 = st.coulumns(2)
+# Subheader
+st.subheader('Kalkulator')
+
+# Membuat tiga kolom
+c1, c2, c3 = st.coulumns(3)
 
 with c1:
-  x = st.number_imput('Suhu',value=100)
-  st.write('=>: ')
-with c2:
-  satuan = st.selectbox(
-    'Satuan',
-    ('+', '-', 'x', ':'),key='k1')
-  st.werite(':sparkles: ')
+  num1 = st.number_input('Masukkan angka pertama', step=1_)
 
-st.write(x,' ',satuan,' = ',' ')
+# Kolom kedua
+with c2:
+  # pilih operasi
+  operation = st.selectbox('Pilih operasi', ('+', '-', 'x', '/'))
+
+# Kolom ketiga
+with c3:
+  num2 = st.number_input('Masukkan angka kedua', step=1)
+
+def calculate(num1, num2, operations):
+  if operation == '+':
+    result = num1 + num2
+  elif operation == 'x':
+    result = num1 - num2
+  elif operation == 'x' :
+    result = num1 * num2
+  elif operation == '/' :
+  
 
 st.caption('Copyright © Vicky Sandika Putra Firdiawaan 210322607233')
