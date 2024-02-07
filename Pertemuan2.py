@@ -17,4 +17,4 @@ with c2:
 
 st.write(x,' ',satuan,' = ',' ')
 
-st.caption(Copyright © Vicky Sandika Putra Firdiawajn 210322607233')
+st.caption('Copyright © Vicky Sandika Putra Firdiawaan 210322607233')
