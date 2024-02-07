@@ -4,7 +4,7 @@ import streamlit as st
 st.header('Vicky San :Sparkles:')
 st.subheader('Plot')
 
-c1, c2 = st.coulums(2)
+c1, c2 = st.coulumns(2)
 
 with c1:
   x = st.number_imput('Suhu',value=100)
