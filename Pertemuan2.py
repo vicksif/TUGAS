@@ -35,7 +35,7 @@ def calculate(num1, num2, operations):
       result = "Error: Pembagian dengan nol"
   return result
 
-result calculate(num1, num2, operation)
+result = calculate(num1, num2, operation)
 st.write('Hasil:', result)
   
 st.caption('Copyright © Vicky Sandika Putra Firdiawaan 210322607233')
