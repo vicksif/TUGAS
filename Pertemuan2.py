@@ -24,7 +24,7 @@ with c3:
 def calculate(num1, num2, operations):
   if operation == '+':
     result = num1 + num2
-  elif operation == 'x':
+  elif operation == '-':
     result = num1 - num2
   elif operation == 'x' :
     result = num1 * num2
