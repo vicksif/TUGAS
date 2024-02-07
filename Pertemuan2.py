@@ -6,8 +6,7 @@ st.header('Vicky San :Sparkles:')
 # Subheader
 st.subheader('Kalkulator')
 
-# Membuat tiga kolom
-c1, c2, c3 = st.coulumns(3)
+c1, c2, c3 = st.columns(3)
 
 # Kolom pertama
 with c1:
@@ -30,7 +29,11 @@ def calculate(num1, num2, operations):
   elif operation == 'x' :
     result = num1 * num2
   elif operation == '/' :
-    result = num1 / num2
-  
+    if num2 != 0: # Menghindari pembagian dengan nol
+      result = num1 /num2
+  return result
 
+result calculate(num1, num2, operation)
+st.write('Hasil:', result)
+  
 st.caption('Copyright © Vicky Sandika Putra Firdiawaan 210322607233')
