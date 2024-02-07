@@ -31,6 +31,8 @@ def calculate(num1, num2, operations):
   elif operation == '/' :
     if num2 != 0: # Menghindari pembagian dengan nol
       result = num1 /num2
+    else:
+      result = "Error: Pembagian dengan nol"
   return result
 
 result calculate(num1, num2, operation)
