@@ -1,7 +1,7 @@
 import streamlit as st
 
 # Header
-st.header('Vicky San :Sparkles:')
+st.header('VickySan :Sparkles:')
 
 # Subheader
 st.subheader('Kalkulator')
