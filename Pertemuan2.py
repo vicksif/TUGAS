@@ -33,7 +33,7 @@ def calculate(num1, num2, operations):
       result = num1 /num2
     else:
       result = "Error: Pembagian dengan nol"
-      return result
+  return result
 
 result = calculate(num1, num2, operation)
 st.write('Hasil:', result)
