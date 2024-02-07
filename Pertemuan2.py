@@ -9,8 +9,9 @@ st.subheader('Kalkulator')
 # Membuat tiga kolom
 c1, c2, c3 = st.coulumns(3)
 
+# Kolom pertama
 with c1:
-  num1 = st.number_input('Masukkan angka pertama', step=1_)
+  num1 = st.number_input('Masukkan angka pertama', step=1)
 
 # Kolom kedua
 with c2:
@@ -29,6 +30,7 @@ def calculate(num1, num2, operations):
   elif operation == 'x' :
     result = num1 * num2
   elif operation == '/' :
+    result = num1 / num2
   
 
 st.caption('Copyright © Vicky Sandika Putra Firdiawaan 210322607233')
